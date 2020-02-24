@@ -1,8 +1,8 @@
 import React from "react";
-import Navigation from "../src/components/Navigation";
-import VehicleForm from "../src/components/VehicleForm";
-import Vehicle from "../src/components/Vehicle";
-import HomePage from "../src/pages/HomePage";
+import Navigation from "./components/Navigation";
+import VehicleForm from "./components/VehicleForm";
+import Vehicle from "./components/Vehicle";
+import HomePage from "./pages/HomePage";
 import { Route } from "react-router";
 import { Layout } from "antd"; //Using Ant Design for UI
 
