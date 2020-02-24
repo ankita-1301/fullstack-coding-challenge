@@ -35,6 +35,7 @@ export default class App extends React.Component {
                 path="/vehicle/:Id"
                 component={Vehicle}
               />{" "}
+              {/* Rendering Vehicle Component */}
             </div>
           </Content>
           <Footer style={{ textAlign: "center" }}>Footer text here</Footer>

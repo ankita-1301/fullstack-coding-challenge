@@ -29,7 +29,6 @@ class VehicleForm extends React.Component {
         })
           .then(response => response.json())
           .then(data => {
-            console.log(data);
             notification.open({
               message: "Success",
               description: `${data.model} - ${data.make} has been CREATED!`,

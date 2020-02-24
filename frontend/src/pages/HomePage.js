@@ -10,20 +10,19 @@ export default class HomePage extends React.Component {
     super();
     this.state = {
       cars: [],
-      reload: false,
-      visible: false
+      reload: false //reload component when deleted
     };
   }
 
   componentDidMount() {
-    this.fetchData();
+    this.fetchData(); //get car list
   }
 
   fetchData = () => {
     fetch("/getAll")
       .then(response => response.json())
       .then(data => {
-        this.setState({ cars: data, reload: false });
+        this.setState({ cars: data, reload: false }); //update car list
       })
       .catch(err => console.log(err));
   };
@@ -65,10 +64,9 @@ export default class HomePage extends React.Component {
         sortDirections: ["descend", "ascend"]
       },
       {
-        title: "Price",
+        title: "Price €",
         dataIndex: "price",
         key: "price",
-        // defaultSortOrder: "descend",
         sorter: (a, b) => a.price - b.price
       },
       {
@@ -99,6 +97,7 @@ export default class HomePage extends React.Component {
             <Button onClick={() => this.openNotification(record)}>
               Delete
             </Button>
+            {/* notify the deletion of car */}
           </span>
         )
       }
