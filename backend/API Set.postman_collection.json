@@ -1,0 +1,203 @@
+{
+	"id": "471dda8d-7c22-abf3-6c60-4dc0d9681dd8",
+	"name": "API Set",
+	"description": "",
+	"order": [
+		"35472878-ba3a-c5db-7e88-178c3379f3a4",
+		"ad26bdfc-61a6-ace5-43c4-7319a26a1811",
+		"6037f6d4-f950-e191-6ee4-cf104c599d69",
+		"d61b6acd-115d-310b-e713-108ee40742bf",
+		"666ab833-b485-4d75-f976-71cd59c5eced",
+		"a2c73866-4120-d0bc-8ce4-08df58a49e1b"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1582218733866,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "35472878-ba3a-c5db-7e88-178c3379f3a4",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:8080/create",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "471dda8d-7c22-abf3-6c60-4dc0d9681dd8",
+			"data": [],
+			"dataMode": "raw",
+			"name": "create",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1582571917351,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"make\": \"Chevrolet\",\n\t\"model\": \"Chevrolet Blazer\",\n\t\"price\": \"5263\",\n\t\"year\": \"2008\",\n\t\"email\": \"user9@gmail.com\",\n\t\"description\" : \"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"\n}\n"
+		},
+		{
+			"id": "6037f6d4-f950-e191-6ee4-cf104c599d69",
+			"headers": "id: 5e52a8bfc6274638261d23a0\n",
+			"headerData": [
+				{
+					"key": "id",
+					"value": "5e52a8bfc6274638261d23a0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/get?Id=5e52a8bfc6274638261d23a0",
+			"queryParams": [
+				{
+					"key": "Id",
+					"value": "5e52a8bfc6274638261d23a0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "471dda8d-7c22-abf3-6c60-4dc0d9681dd8",
+			"data": null,
+			"dataMode": "params",
+			"name": "getById",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1582571977659,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "666ab833-b485-4d75-f976-71cd59c5eced",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/deleteAll",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "471dda8d-7c22-abf3-6c60-4dc0d9681dd8",
+			"data": null,
+			"dataMode": "params",
+			"name": "deleteAll",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1582572015480,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "a2c73866-4120-d0bc-8ce4-08df58a49e1b",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/delete?id=5e52cdb9dbf603042d40b1a2",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "5e52cdb9dbf603042d40b1a2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "471dda8d-7c22-abf3-6c60-4dc0d9681dd8",
+			"data": null,
+			"dataMode": "params",
+			"name": "deleteById",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1582572039751,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ad26bdfc-61a6-ace5-43c4-7319a26a1811",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/getAll",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "471dda8d-7c22-abf3-6c60-4dc0d9681dd8",
+			"data": null,
+			"dataMode": "params",
+			"name": "getAll",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1582571928720,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d61b6acd-115d-310b-e713-108ee40742bf",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/update",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "471dda8d-7c22-abf3-6c60-4dc0d9681dd8",
+			"data": [],
+			"dataMode": "raw",
+			"name": "update",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1582571988945,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"id\": \"5e53d8498aed813611186ade\",\n    \"make\": \"updatedMake\",\n    \"model\": \"UpdatedModel\",\n    \"year\": 2010,\n    \"description\": \"lamedgdfg\",\n    \"price\": 3000,\n    \"email\": \"anku45gmailcom\"\n}"
+		}
+	]
+}
