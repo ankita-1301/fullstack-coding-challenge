@@ -1,8 +1,9 @@
 package com.example.demo.model;
 
-import java.io.Serializable;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+
+import java.io.Serializable;
 
 @Document
 public class Car implements Serializable{
@@ -11,13 +12,13 @@ public class Car implements Serializable{
 	 */
 	private static final long serialVersionUID = 1L;
 	@Id
-	String id;
-	String make;
-	String model;
-	int year;
-	String description;
-	int price;
-	String email;
+	private String id;
+	private String make;
+	private String model;
+	private int year;
+	private String description;
+	private int price;
+	private String email;
 	
 	public Car(String make, String model, int year, String description, int price, String email) {
 		this.make = make;
