@@ -41,8 +41,8 @@ When clicked on "check" action, the details of the respective vehicle is display
 
 The "SELL YOUR VEHICLE" option in Navigation Bar leads to a form that helps in creating a listing with all the required details (each field is validated for its type).
 
-![](./frontend/public/images/VehicleForm.png)
+![](./frontend/public/images/Vehicle-Form.png)
 
 ### API
 
-To test the APIs, you can import the file "API Set.postman_collection.json" ()in the backend folder) to postman. The APIs are to perform create, read, update, delete, read all and delete all operations.
+To test the APIs, you can import the file "API Set.postman_collection.json" (in the backend folder) to postman. The APIs are to perform create, read, update, delete, read all and delete all operations.
