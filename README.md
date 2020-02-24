@@ -45,4 +45,4 @@ The "SELL YOUR VEHICLE" option in Navigation Bar leads to a form that helps in c
 
 ### API
 
-To test the APIs, you can import the file "API Set.postman_collection.json" (in the backend folder) to postman. The APIs are to perform create, read, update, delete, read all and delete all operations.
+To test the APIs, you can import the file "API Set.postman_collection.json" (in the backend folder) to postman. The APIs are to perform basic CRUD operations.
