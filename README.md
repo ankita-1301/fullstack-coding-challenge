@@ -29,19 +29,19 @@ The application consists of 3 pages- 1st is the home page where are the car's/ve
 
 Home page where all the car's/vehicle's meta-data (Make, Model, Price) are listed for the sale. Each column can be filtered, sorted and reset as seen in the figure below. The corresponding action is listed to check further details or delete the listing(to demonstrate the delete API).
 
-![](./frontend/public/images/HomePage.png)
+![](./frontend/public/images/homeview.png)
 
 ##### Vehicle Page
 
 When clicked on "check" action, the details of the respective vehicle is displayed as below.
 
-![](./frontend/public/images/VehicleView.png)
+![](./frontend/public/images/vehicleview.png)
 
 #### Vehicle Form Page
 
 The "SELL YOUR VEHICLE" option in Navigation Bar leads to a form that helps in creating a listing with all the required details (each field is validated for its type).
 
-![](./frontend/public/images/Vehicle-Form.png)
+![](./frontend/public/images/vehicleform.png)
 
 ### API
 
