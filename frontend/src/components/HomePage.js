@@ -1,5 +1,4 @@
 import React from "react";
-// import { Redirect, Route } from "react-router";
 import "../styles.css";
 import "antd/dist/antd.css";
 import { Table, Button, Divider, notification, Icon } from "antd";
@@ -43,14 +42,8 @@ export default class HomePage extends React.Component {
       .catch(err => console.log(err));
   };
 
-  render() {
-    let { cars, reload } = this.state;
-
-    if (reload) {
-      this.fetchData();
-    }
-
-    const columns = [
+  getColumns = cars => {
+    return [
       {
         title: "Make",
         dataIndex: "make",
@@ -102,6 +95,16 @@ export default class HomePage extends React.Component {
         )
       }
     ];
+  };
+
+  render() {
+    let { cars, reload } = this.state;
+
+    if (reload) {
+      this.fetchData();
+    }
+
+    const columns = this.getColumns(cars);
 
     return (
       <div>
