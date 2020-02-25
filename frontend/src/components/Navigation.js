@@ -19,7 +19,7 @@ export default class Navigation extends React.Component {
         </Menu.Item>
         <Menu.Item key="2">
           <NavLink to={`/sellVehicle`} />
-          SELL YOU VEHICLE
+          SELL YOUR VEHICLE
         </Menu.Item>
       </Menu>
     );
