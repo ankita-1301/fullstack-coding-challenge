@@ -2,6 +2,13 @@
 
 The Frontend of the application was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and the Backend is a RESTful service implemented as a Java springboot application. MongoDB is used locally for the persistance storage of data. [Ant-design](https://ant.design/) is used to design the web interface.
 
+### Prerequisites
+
+- JRE 8
+- NodeJS
+- Package Manager (NPM)
+- MongoDB
+
 ### Backend
 
 To start the springboot application, you can:
@@ -16,6 +23,8 @@ In the project directory, you can run:
 
 ##### `cd frontend`
 
+##### `npm install`
+
 ##### `npm start`
 
 Runs the app in the development mode.
@@ -23,7 +32,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Screenshots
 
-The application consists of 3 pages- 1st is the home page where are the car's/vehicle's meta-data are listed for the sale, 2nd is the form page where one add the details of the vehicle and create a listing and 3rd is the vehicle page where the rest of details of the vehicle is displayed.
+The application consists of 3 pages-
 
 ##### Home Page
 
@@ -39,7 +48,7 @@ When clicked on "check" action, the details of the respective vehicle is display
 
 #### Vehicle Form Page
 
-The "SELL YOUR VEHICLE" option in Navigation Bar leads to a form that helps in creating a listing with all the required details (each field is validated for its type).
+The "SELL YOUR VEHICLE" option in the Navigation Bar leads to a form that helps in creating a listing with all the required details (each field is validated for its type).
 
 ![](./frontend/public/images/vehicleform.png)
 
